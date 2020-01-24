@@ -20,7 +20,6 @@
         <swagger.version>2.9.2</swagger.version>
         <guava.version>20.0</guava.version>
         <modelmapper.version>2.3.0</modelmapper.version>
-        <lombok.version>1.18.10</lombok.version>
     </properties>
     <dependencies>
         <dependency>
