@@ -1,5 +1,6 @@
-package com.example.adapters.primary.rest;
+package com.example.adapters.primary.rest.keepalive;
 
+import com.example.adapters.primary.rest.keepalive.KeepAliveController;
 import com.example.ports.primary.KeepAliveService;
 import org.junit.Assert;
 import org.junit.Before;

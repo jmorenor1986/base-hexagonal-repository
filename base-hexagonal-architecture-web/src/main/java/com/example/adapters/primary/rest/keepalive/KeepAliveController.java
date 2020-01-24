@@ -1,4 +1,4 @@
-package com.example.adapters.primary.rest;
+package com.example.adapters.primary.rest.keepalive;
 
 import com.example.ports.primary.KeepAliveService;
 import org.springframework.beans.factory.annotation.Autowired;
