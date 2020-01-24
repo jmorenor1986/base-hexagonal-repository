@@ -44,4 +44,13 @@ To the run application, just use maven
 ```
 mvn -pl base-hexagonal-architecture-web spring-boot:run
 ```
+To validate the service you have two ways:
 
+Open the browser with next url:
+```
+http://localhost:5000/example/v1/keepalive/
+```
+and
+```
+curl -X GET "http://localhost:5000/example/v1/keepalive/" -H "accept: */*"
+```
