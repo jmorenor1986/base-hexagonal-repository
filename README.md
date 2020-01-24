@@ -1,15 +1,16 @@
 # base-hexagonal-repository
 Its a base project to develop the microservices based in hexagonal architecture.
 
-##Quick start
+## Quick start
 
 To obtain the source code, just clone the repository at github
 ```
 git clone git@github.com:jmorenor1986/base-hexagonal-repository.git
 ``` 
+
 ## Build
 
-###Prerequisites
+### Prerequisites
 In order to build the application, you need java 8 and maven installed
 ```
 $ mvn -version
