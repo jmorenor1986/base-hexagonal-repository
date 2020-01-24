@@ -15,11 +15,8 @@ public class SwaggerConfig {
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2).select()
                 .apis(RequestHandlerSelectors.basePackage("com.example.adapters.primary.rest"))
-                .paths(PathSelectors.regex("/v1.*")).build().apiInfo(apiEndPointsInfo());
-    }
-
-    private ApiInfo apiEndPointsInfo() {
-        return new ApiInfoBuilder().title("Controllers").description("Management API").version("0.0.1")
+                .paths(PathSelectors.any())
                 .build();
     }
+
 }
