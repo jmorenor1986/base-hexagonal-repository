@@ -68,6 +68,5 @@
 
     <modules>
         <module>base-hexagonal-architecture-web</module>
-        <module>base-hexagonal-architecture-acceptance-tests</module>
     </modules>
 </project>
