@@ -1,4 +1,4 @@
-package com.example.services;
+package com.example.core.services;
 
 import com.example.ports.primary.KeepAliveService;
 import org.junit.Assert;
@@ -8,7 +8,6 @@ import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-@RunWith(SpringRunner.class)
 @SpringBootTest
 public class KeepAliveServiceTest {
 
