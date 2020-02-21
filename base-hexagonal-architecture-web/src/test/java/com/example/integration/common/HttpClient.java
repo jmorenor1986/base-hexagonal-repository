@@ -1,4 +1,4 @@
-package integration.common;
+package com.example.integration.common;
 
 import org.springframework.boot.web.server.LocalServerPort;
 import org.springframework.context.annotation.Scope;
@@ -21,7 +21,7 @@ public class HttpClient {
         return SERVER_URL + ":" + port + EXAMPLE_ENDPOINT;
     }
 
-    public String get() {
-        return restTemplate.getForEntity(exampleEndPoint(), String.class).getBody();
+    public String get(String resource) {
+        return restTemplate.getForEntity(exampleEndPoint().concat(resource), String.class).getBody();
     }
 }

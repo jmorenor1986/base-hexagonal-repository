@@ -12,6 +12,7 @@
     <properties>
         <start-class>com.example.Application</start-class>
     </properties>
+
     <build>
         <plugins>
             <plugin>
@@ -48,6 +49,7 @@
                                     <element>CLASS</element>
                                     <excludes>
                                         <exclude>com.example.Application</exclude>
+                                        <exclude>*Config</exclude>
                                     </excludes>
                                     <limits>
                                         <limit>
@@ -89,6 +91,16 @@
                         <version>2.0.0.RELEASE</version>
                     </dependency>
                 </dependencies>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M3</version>
+                <configuration>
+                    <includes>
+                        <include>**/AcceptanceIT.java</include>
+                    </includes>
+                </configuration>
             </plugin>
         </plugins>
     </build>
