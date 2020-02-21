@@ -1,4 +1,4 @@
-package com.example.services;
+package com.example.core.services;
 
 import com.example.ports.primary.KeepAliveService;
 import org.junit.Assert;
