@@ -1,4 +1,4 @@
-package com.example.adapters.primary.rest;
+package com.example.adapters.primary.rest.keepalive;
 
 import com.example.ports.primary.KeepAliveService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("keepalive/v1")
+@RequestMapping("v1/keepalive")
 public class KeepAliveController {
     private final KeepAliveService keepAliveService;
 
